@@ -5,8 +5,8 @@ public class BooleansComparisons {
           int biologyGrade = 75;
           int englishGrade = 75;
           
-          System.out.println(chemistryGrade <= englishGrade);
-          System.out.println(biologyGrade <= englishGrade);
+          System.out.println(chemistryGrade == englishGrade);
+          System.out.println(biologyGrade == englishGrade);
 
 
 
