@@ -13,7 +13,7 @@ public class AskJava {
         int capacity = 12;
         int people = 15;
         System.out.println("Me: Hi Java, can the elevator hold everyone?");
-        System.out.println("Java: " + ("<compare capacity and people>") + "\n");
+        System.out.println("Java: " + (capacity > people) + "\n");
                                         //comparison here
 
         String request = "PS5";
