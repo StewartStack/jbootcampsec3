@@ -25,7 +25,7 @@ public class AskJava {
         int space = 9;
         int guests = 8;
         System.out.println("Me: Hi Java, can everyone attend my dinner party?");
-        System.out.println("Java: " + "<compare space and guests>" + "\n");
+        System.out.println("Java: " + (guests == space) + "\n");
                                         //comparison here
 
         int yourVotes = 24;
