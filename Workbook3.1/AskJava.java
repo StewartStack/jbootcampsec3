@@ -19,7 +19,7 @@ public class AskJava {
         String request = "PS5";
         String purchase = "Toy car";
         System.out.println("Me: Hi Java, will my friend be happy?");
-        System.out.println("Java: " + "<compare request and purchase>" + "\n");
+        System.out.println("Java: " + (purchase.equals(request)) + "\n");
                                         //comparison here
 
         int space = 9;
