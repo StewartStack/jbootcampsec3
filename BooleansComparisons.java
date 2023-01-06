@@ -13,5 +13,9 @@ public class BooleansComparisons {
 
           System.out.println(sentence.equals(sentence2));
           System.out.println(!sentence.equals(sentence2));
+
+          double value = 3.6;
+
+          System.out.println((int)value == 3);
      }
 }
