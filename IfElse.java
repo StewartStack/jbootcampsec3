@@ -6,6 +6,8 @@ public class IfElse {
 
           if (grade > 50) {
                System.out.println("Great job, you passed!");
+          } else {
+               System.out.println("Sorry, unfortunately you did not pass!");
           }
      }
 
