@@ -9,8 +9,9 @@ public class JavaMart {
         System.out.println("Can I get this car?");
        
     
-        if (toyCar <= wallet) {
+        if (wallet >= toyCar) {
             System.out.println("sure!");
+            wallet -= toyCar;
         } else {
             System.out.println("Sorry, I only have " + wallet + " left.");
         }
@@ -18,10 +19,11 @@ public class JavaMart {
         double nike = 95.99;
         System.out.println("Can I get these nike shoes?");
         
-        if (nike >= wallet) {
+        if (wallet >= nike) {
             System.out.println("Sure");
+            wallet -= nike;
         } else {
-            System.out.println("Sorry, I only have " + (wallet - toyCar) + " left.");
+            System.out.println("Sorry, I only have " + wallet + " left.");
         }
     }
 }
