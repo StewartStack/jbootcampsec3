@@ -18,10 +18,10 @@ public class JavaMart {
         double nike = 95.99;
         System.out.println("Can I get these nike shoes?");
         
-        if (nike <= wallet) {
+        if (nike >= wallet) {
             System.out.println("Sure");
         } else {
-            System.out.println("Sorry, I only have " + wallet + " left.");
+            System.out.println("Sorry, I only have " + (wallet - toyCar) + " left.");
         }
     }
 }
