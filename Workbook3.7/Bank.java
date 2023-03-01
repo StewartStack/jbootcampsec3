@@ -25,14 +25,16 @@ public class Bank {
                
                 // Task 4 - Pick up number of years
                 int years = scan.nextInt();
-                scan.nextLine();//Throwaway
+              
                 System.out.println("What is your name?");
-               
-                // Task 5 - Pick up the user's name
+                 // Task 5 - Pick up the user's name
+                scan.nextLine();//Throwaway
                 String name = scan.nextLine();
+               
+               
                //Task 6 - Approve the mortgage if they meet the requirements (see article)
                //       - Otherwise, don't give them a mortgage. 
-               if (savings >= 10000 && creditCart <= 5000 && years > 2) {
+               if (savings >= 10000 && creditCart < 5000 && years > 2) {
                 System.out.println("Congratulations " + name + " You have been approved!");
                } else {       
               System.out.println("Sorry, you are not eligible for a mortgage.");
